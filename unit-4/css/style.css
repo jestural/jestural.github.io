@@ -14,7 +14,19 @@ h1, p, ul, {
 
 }
 
+img	{width: 300px; 
+	margin: 0 auto;
+	display: block;
+}
 
+.stage 
+	{width: 300px; 
+	margin: 0 auto;
+	display: block;}
+
+#about {
+	color: purple;
+}
 
 #header {
 	text-transform: uppercase;
