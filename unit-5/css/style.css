@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url('https://fonts.googleapis.com/css?family=Lekton');
+
+
+body {
+	background-color: #FFFFFF;
+}
+
+h1, p, ul, {
+	color: #000000;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	list-style-type: none;
+
+}
+
+img	{width: 300px; 
+	margin: 50 auto;
+	display: block;
+}
+
+#cases {
+	color: black;
+	text-align: left;
+	font-family: Arial, sans-serif;
+}
+
+
+
+#about {
+	color: black;
+	text-align: center;
+	font-family: Arial, sans-serif;
+
+
+}
+
+
+#contact {
+	color: black;
+	text-align: center;
+	font-family: Arial, sans-serif;}
+
+#header {
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+	font-family: Arial, serif;
+	font-size: 12px;
+
+
+
+
+
+
+
