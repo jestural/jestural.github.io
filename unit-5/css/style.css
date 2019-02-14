@@ -1,9 +1,53 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url('https://fonts.googleapis.com/css?family=Lekton');
 
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
 
-body {
-	background-color: #FFFFFF;
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
 }
 
 h1, p, ul, {
@@ -14,26 +58,20 @@ h1, p, ul, {
 
 }
 
-img	{width: 300px; 
+img	{width: 500px; 
 	margin: 50 auto;
-	display: block;
+	display: center;
 }
 
 #cases {
 	color: black;
-	text-align: left;
-	font-family: Arial, sans-serif;
-}
-
-
-
-#about {
-	color: black;
 	text-align: center;
+	font-size: 24px;
 	font-family: Arial, sans-serif;
-
-
+	list-style-type: none;
+	display: inline;
 }
+
 
 
 #contact {
@@ -47,6 +85,8 @@ img	{width: 300px;
 	color: black;
 	font-family: Arial, serif;
 	font-size: 12px;
+
+
 
 
 
