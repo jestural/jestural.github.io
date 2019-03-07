@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
-@import url('https://fonts.googleapis.com/css?family=Lekton');
+@import url(https://fonts.googleapis.com/css?family=Lekton);
+
 
 header {
     background-color: #FFED74;
@@ -20,38 +21,6 @@ aside {
     border: 1px black solid;
     padding: 20px;
     text-align: center;
-}
-
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: white;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 40%;
-}
-
-
-#right {
-    background-color: white;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 40%;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
 }
 
 article {
@@ -92,18 +61,17 @@ h1, p, ul, {
 
 img	{width: 500px; 
 	margin: 50 auto;
-	display: left;
+	display: center;
 }
 
 #cases {
-	color: black;
+	color: green;
 	text-align: center;
 	font-size: 24px;
 	font-family: Arial, sans-serif;
 	list-style-type: none;
 	display: inline;
 }
-
 
 
 #contact {
@@ -118,11 +86,43 @@ img	{width: 500px;
 	font-family: Arial, serif;
 	font-size: 12px;
 
+}
 
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
 
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 46%;
+}
 
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 46%;
+}
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 
+#header_img {
+    float: left;
+    padding: 20px;
+}
 
 
 
